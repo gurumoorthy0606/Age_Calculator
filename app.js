@@ -14,7 +14,7 @@ datePicker.addEventListener('change',function(){
 	var selectedDate = new Date(this.value);
 	var DOB = selectedDate.toLocaleDateString('en-US',options);
 	
-	choseDate.innerHTML = "DOB : " + " " + DOB;
+	// choseDate.innerHTML = "DOB : " + " " + DOB;
 
 	var miliSeconds_Btw_DOB = Date.parse(DOB);
 	var miliSecond_Btw_Now = Date.now();
